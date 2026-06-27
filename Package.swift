@@ -9,6 +9,9 @@ let package = Package(
         .library(name: "PlayableKit", targets: ["PlayableKit"]),
     ],
     targets: [
-        .target(name: "PlayableKit"),
+        .target(
+            name: "PlayableKit",
+            resources: [.copy("Resources/Sprites")]
+        ),
     ]
 )
