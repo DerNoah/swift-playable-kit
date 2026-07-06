@@ -18,7 +18,7 @@ A SpriteKit-based library that adds an interactive pixel-art character to any iO
 
 ```swift
 dependencies: [
-    .package(url: "https://github.com/noahplutzer/swift-playable-kit", from: "1.0.0")
+    .package(url: "https://github.com/DerNoah/swift-playable-kit", from: "1.0.0")
 ]
 ```
 
